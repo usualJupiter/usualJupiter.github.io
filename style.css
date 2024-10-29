@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Tiny5&display=swap');
+body {
+    font-family: Manrope;
+    margin: 0;
+    padding: 0;
+    background-color: #252F2C;
+    color: #ffffff;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #3C4643;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Manrope' !important;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.table {
+    background-color: #81908B;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dcdde1;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3C4643;
+}
+
+footer {
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #3C4643;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+}
+
+
+.tablename {
+    color: #FFF;
+    font-family: 'Tiny5'!important;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tag {
+    background-color: rgba(231, 255, 248, 0.42);
+    color:#252F2C
+}
